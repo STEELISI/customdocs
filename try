@@ -1,7 +1,0 @@
-my $string = "newsite/content/en/docs/Experimentation/hello-world-gui/23-relinquish.png";
-my $pattern = "content\/en\/docs\/";
-if ($string =~ /$pattern/)
-{
-	print "Match";
-}
-

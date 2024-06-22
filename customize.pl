@@ -217,6 +217,7 @@ for $f (sort @files)
 		    while(<$fh>)
 		    {
 			$text .= $_;
+			
 			if ($sim)
 			{
 			    if ($_ =~ $oldt)
@@ -227,7 +228,6 @@ for $f (sort @files)
 			    }
 			}
 		    }
-
 		    $text =~ s/$oldt/$newt/g;
 		    if (!$sim)
 		    {

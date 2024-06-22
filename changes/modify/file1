@@ -1,9 +1,59 @@
 #file
+content\/en\/docs\/_index.md
+#old
+Merge
+#new
+SPHERE
+#file
+content\/en\/docs\/_index.md
+#old
+the SPHERE documentation
+#new
+the SPHERE documentation. SPHERE is running Merge software for testbed management and control, and borrows a lot of its documentation from [Merge documentation](https://mergetb.org/docs/)
+#file
+content\/en\/docs\/Concepts\/_index.md
+#old
+Merge core
+#new
+core
+#file
 content\/en\/docs\/Concepts\/overview.md
 #old
 the MergeTB
 #new
-the SPHERE
+the SPHERE and Merge testbed
+#file
+content\/en\/docs\/Concepts\/overview.md
+#old
+Merge is a testbed
+#new
+SPHERE is research infrastructure that runs on Merge testbed platform. Merge is a testbed
+#file
+content\/en\/docs\/Concepts\/overview.md
+#old
+\*\*The basic(.*\n.*)*Once
+#new
+Once
+#file
+content\/en\/docs\/Concepts\/overview.md
+#old
+does not change.
+#new
+does not change. You can learn more about Merge concepts [here](https://mergetb.org/docs/concepts).
+
+SPHERE will have three testbed facilities -- at USC/ISI, at USC colocation space and at Northeastern University.
+SPHERE will host heterogeneous resources that are relevant for cybersecurity and privacy experimentation, such as:
+* server-class compute nodes for virtual machine allocation
+* server-class compute nodes with GPUs for machine learning
+* embedded CPUs for large-scale embedded systems experimentation
+* programmable NICs
+* PLCs and CPS simulation software for digital twinning
+* remotely-controlled home IoT devices
+
+Figure below illustrates our vision for SPHERE architecture:
+
+![](/img/arch.jpg)
+
 #file
 content\/en\/docs\/Concepts\/experimentation.md
 #old

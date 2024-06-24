@@ -1,0 +1,39 @@
+#file
+content\/en\/docs\/Experimentation\/ingresses\/index.md
+#old
+Nodes can host services that are accessible from the internet.
+#new
+SPHERE allows users to specify externally accessible services (e.g., a Web server) in their experiments, and Merge software provisions them.
+#file
+content\/en\/docs\/Experimentation\/emulation.md
+#old
+Merge supports link emulation support, known as the Moa subsystem.
+#new
+SPHERE supports link emulation via Merge's Moa subsystem.
+#file
+content\/en\/docs\/Experimentation\/port-forwarding.md
+#old
+Merge testbeds
+#new
+the SPHERE testbed
+#file
+content\/en\/docs\/Management\/_index.md
+#old
+group research activities in Merge
+#new
+group research activities in SPHERE
+#file
+content\/en\/docs\/_index.md
+#old
+Merge
+#new
+SPHERE
+#file
+content\/en\/docs\/_index.md
+#old
+networked-system
+#new
+cybersecurity and privacy
+
+
+

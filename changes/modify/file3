@@ -101,3 +101,71 @@ content\/en\/docs\/Experimentation\/hello-world.md
 mergetb.net
 #new
 sphere-testbed.net
+#file
+content\/en\/docs\/Experimentation\/hello-world.md
+#old
+Realizing an Experiment\n
+#new
+Realizing an Experiment (Reserving Resources)
+#file
+content\/en\/docs\/Experimentation\/experiment-automation.md
+#old
+Merge
+#new
+SPHERE
+#file
+content\/en\/docs\/Experimentation\/experiment-automation.md
+#old
+mergetb.net
+#new
+sphere-testbed.net
+wy#file
+content\/en\/docs\/Experimentation\/experiment-automation.md
+#old
+the recommended tool for experiment automation
+#new
+a well-suited tool for automation of experiment setup
+#file
+content\/en\/docs\/Experimentation\/xdc.md
+#old
+MergeTB
+#new
+SPHERE
+#file
+content\/en\/docs\/Experimentation\/xdc.md
+#old
+Merge
+#new
+SPHERE
+#file
+content\/en\/docs\/Experimentation\/xdc.md
+#old
+mergetb.net
+#new
+sphere-testbed.net
+#file
+content\/en\/docs\/Experimentation\/hello-world-gui\/index.md 
+#old
+MergeTB
+#new
+SPHERE
+#file
+content\/en\/docs\/Experimentation\/hello-world-gui\/index.md 
+#old
+Merge
+#new
+SPHERE
+#file
+content\/en\/docs\/Experimentation\/hello-world-gui\/index.md 
+#old
+mergetb.net
+#new
+sphere-testbed.net
+#file
+content\/en\/docs\/Experimentation\/resolution.md 
+#old
+in Merge testbeds
+#new
+on SPHERE, powered by Merge software
+
+

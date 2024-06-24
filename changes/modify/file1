@@ -7,9 +7,9 @@ SPHERE
 #file
 content\/en\/docs\/_index.md
 #old
-the SPHERE documentation
+the SPHERE documentation. Merge
 #new
-the SPHERE documentation. SPHERE is running Merge software for testbed management and control, and borrows a lot of its documentation from [Merge documentation](https://mergetb.org/docs/)
+the SPHERE documentation. SPHERE is running Merge software for testbed management and control, and borrows a lot of its documentation from [Merge documentation](https://mergetb.org/docs/). Merge
 #file
 content\/en\/docs\/Concepts\/_index.md
 #old
@@ -27,7 +27,7 @@ content\/en\/docs\/Concepts\/overview.md
 #old
 Merge is a testbed
 #new
-SPHERE is research infrastructure that runs on Merge testbed platform. Merge is a testbed
+SPHERE is research infrastructure that runs on Merge testbed platform. Merge is testbed
 #file
 content\/en\/docs\/Concepts\/overview.md
 #old

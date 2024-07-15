@@ -1,4 +1,10 @@
 #file
+content\/en\/docs\/FAQ\/_index.md
+#old
+mergetb.net
+#new
+sphere-testbed.net
+#file
 content\/en\/docs\/Experimentation\/ingresses\/index.md
 #old
 Nodes can host services that are accessible from the internet.

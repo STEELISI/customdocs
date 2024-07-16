@@ -78,7 +78,12 @@ for $f (sort @files)
     {
 	if (!-d "$newpath/$i")
 	{
+	    print "Making new path $newpath/$i\n";
 	    system("mkdir $newpath/$i");
+	}
+	else
+	{
+	    print "Path $newpath/$i exists\n";
 	}
 	$newpath = $newpath . "/" . $i;
     }

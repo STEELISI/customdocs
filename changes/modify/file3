@@ -7,21 +7,15 @@ experiments on SPHERE
 #file
 content\/en\/docs\/Experimentation\/getting-started.md
 #old
-Accounts
+Accounts"
 #new
-Research Accounts
+Research Accounts "
 #file
 content\/en\/docs\/Experimentation\/getting-started.md
 #old
 Merge
 #new
 SPHERE
-#file
-content\/en\/docs\/Experimentation\/getting-started.md
-#old
-mergetb.net
-#new
-sphere-testbed.net
 #file
 content\/en\/docs\/Experimentation\/getting-started.md
 #old
@@ -98,12 +92,6 @@ SPHERE
 #file
 content\/en\/docs\/Experimentation\/hello-world.md
 #old
-mergetb.net
-#new
-sphere-testbed.net
-#file
-content\/en\/docs\/Experimentation\/hello-world.md
-#old
 Realizing an Experiment\n
 #new
 Realizing an Experiment (Reserving Resources)
@@ -114,12 +102,6 @@ Merge
 #new
 SPHERE
 #file
-content\/en\/docs\/Experimentation\/experiment-automation.md
-#old
-mergetb.net
-#new
-sphere-testbed.net
-wy#file
 content\/en\/docs\/Experimentation\/experiment-automation.md
 #old
 the recommended tool for experiment automation
@@ -138,12 +120,6 @@ Merge
 #new
 SPHERE
 #file
-content\/en\/docs\/Experimentation\/xdc.md
-#old
-mergetb.net
-#new
-sphere-testbed.net
-#file
 content\/en\/docs\/Experimentation\/hello-world-gui\/index.md 
 #old
 MergeTB
@@ -155,12 +131,6 @@ content\/en\/docs\/Experimentation\/hello-world-gui\/index.md
 Merge
 #new
 SPHERE
-#file
-content\/en\/docs\/Experimentation\/hello-world-gui\/index.md 
-#old
-mergetb.net
-#new
-sphere-testbed.net
 #file
 content\/en\/docs\/Experimentation\/resolution.md 
 #old

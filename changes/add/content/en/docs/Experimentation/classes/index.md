@@ -17,7 +17,7 @@ This guide covers the basic things you need to do to get started using SPHERE in
 
 This guide assumes you are using the reference portal at `sphere-testbed.net`. Instructions on this page only apply to that portal.
 
-** This content was updated in August 2024. Please read it carefully. **
+**This content was updated in August 2024. Please read it carefully.**
 
 {{% /alert %}}
 

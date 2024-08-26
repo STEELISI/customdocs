@@ -17,39 +17,62 @@ This guide covers the basic things you need to do to get started using SPHERE in
 
 This guide assumes you are using the reference portal at `sphere-testbed.net`. Instructions on this page only apply to that portal.
 
+** This content was updated in August 2024. Please read it carefully. **
+
 {{% /alert %}}
 
 # Account Setup
 
-Instructors and students will have their account automatically set up by our legacy software. Instructors please refer to guidelines <a href="https://docs.deterlab.net/support/class/">in our legacy documentation</a>, which have been updated. Students, your accounts will be created by your instructor.
 
-# Using SPHERE as an Instructor
+Instructors should open their account <a href="https://launch.sphere-testbed.net">here</a> and create an organization for their class (Organizations are on the left menu as the user is logged on). Then please post a support ticket for SPHERE ops to approve the organization. **You need to do this only once per class. Next semester you can reuse the same organization. If another instructor teaches the same class they can also reuse the same organization.**
 
-Instructors will use <a href="https://isi.deterlab.net">our legacy Web page</a> to create student accounts, retrieve and reset passwords, upload and assign class materials and collect submissions for grading. This workflow remains the same as before. A instructor only needs to <a href="https://docs.deterlab.net/support/migration/#migrateclass">migrate their class</a> once and then **continue using legacy SPHERE to manage their class as usual**.
+Students will have their account automatically set up by their instructor.
 
-## Migrating Class Materials
+# Using SPHERE as an Instructor or TA
 
-If you have used some shared or private class materials on DeterLab, please refer to <a href="https://docs.deterlab.net/education/migrating-materials">our guidelines on migrating your materials to our new platform</a>.
+Instructors will use <a href="https://edu.sphere-testbed.net">our Class UI</a> to create student accounts, retrieve and reset passwords, upload and assign class materials and collect submissions for grading. TAs can do all these activities as well, except that they cannot create new classes. Our Class UI is accessible from our main login page. Once logged in, look for "Class UI" on the top menu.
+
+## Student/TA Account Creation
+
+Click on Teaching (left menu) then on your class. Use option "Add Users" and select student or TA. The system will create the requested accounts and you will be able to see the usernames and passwords under "Manage Users" menu item. One sample class's view is shown below.
+
+![](teacherview.png)
+
+**Currently, instructors must hand out username and password combination to each student. The easiest approach would be to print out the Manage students view, cut the paper strips and hand one to each student. We're working on emailing the students' their passwords, and hope to release this feature by September 15, 2024.**
+
+## Student/TA Account Management
+
+Click on Teaching (left menu) then on your class. Use option "Manage Users".  You will be able to edit user information, including their password, and to recycle a user (e.g., in case of a student dropping the class). Students are assigned a generic name at account creation. They can also edit their name from their SPHERE Profile. Please ask the students NOT to edit their password. They should keep their SPHERE-assigned password, as this helps the instructor, TA and SPHERE team debug any issues by logging in as a student.
+
+## Adding/Managing Class Materials
+
+Click on Teaching (left menu) then on your class. Use option "Add Materials" or "Manage Materials". You can add materials to your class, such as a Web page for the course or a homework assignment. **Currently only add-by-URL is supported.** This simply adds a URL to a Web page hosting your class material.
+
+If you have previously used shared materials, they now reside <a href="https://jelenamirkovic.github.io/sphere-education.github.io/">here</a>. If you have previously used private materials, please contact SPHERE ops to receive a ZIP file with your materials from the old platform. You can upload these to a sharing site, such as Google Sites, Drop box, Share point, etc. and use our add-by-URL option to add them to your class.
+
+## Creating Assignments
+
+Click on Teaching (left menu) then on your class. Use option "Add Assignment". You will be able to select your assignment from the existing materials, so please make sure to add materials first and then use them to create assignments. You can now set the release date as well as the due date for each assignment. You can hide assignments under development by making them visible only to Instructors/TAs. At the release date, they will become visible to everyone in your class.
+
+## Downloading Assignments
+
+This option is still under development, with expected release date of September 6, 2024.
 
 # Using SPHERE as a Student
 
-Students will receive an email with their username and password as instructors create their SPHERE accounts. The same username and password can be used at our <a href="https://isi.deterlab.net">legacy site</a> to access class materials and upload submissions, and at our <a href="https://sphere-testbed.net">current site</a> to work on class assignments. Should a student forget their password, their instructor can retrieve it or reset it. Please refer to documentation <a href="https://docs.deterlab.net/education/course-setup/#managing-a-class">at our legacy site</a>.
+Students will receive their login credentials from their instructor. Should a student forget their password, their instructor can retrieve it or reset it. 
+
+Students will use <a href="https://edu.sphere-testbed.net">our Class UI</a> to interact with class content. Our Class UI is accessible from our main login page. Once logged in, look for "Class UI" on the top menu.
 
 ## Accessing Class Materials
 
-To access class materials log into our <a href="https://isi.deterlab.net">legacy site</a> and click on "My Classes" tab.
-
-![](myclasses.png)
-
-You will then be able to see materials that your instructor shared with the class, and your assignments. To submit an assignment you would upload **one** file and click "Submit".
-
-![](studentview.png)
+To access class materials log into our Class UI. You should be able to view class materials and assignments, and to submit your answers.  To submit an answer to the assignment you would upload **one** file and click "Submit".
 
 ## Working on Assignments
 
 Each assignment will have a name of the lab you will work on, let's call it **labname**. To start an experiment and set up the lab follow the steps below.
-1. Log into the testbed using your username and password, at <a href="https://launch.sphere-testbed.net">current site</a>
-2. Click on XDCs (left menu)
+1. Log into the testbed using your username and password, at <a href="https://launch.sphere-testbed.net">our main site</a>
+2. Click on XDCs (left menu) and create a new XDC. **You should only do this once per class.** Wait a little while and refresh the page. A Jupyter link will become visible.
 3. Click on Jupyter link (center window)
 4. Click on Terminal if needed - Terminal app may already be active
 
@@ -95,7 +118,7 @@ When you finish an assignment, release the resources by repeating steps 1,2,3,4 
 ```bash
   $ stopexp labname
 ```
-Answer the questions specified in your lab materials and submit answers using our <a href="https://isi.deterlab.net">legacy site</a>.
+Answer the questions specified in your lab materials and submit answers using our Class UI.
 
 ### Copying Files
 

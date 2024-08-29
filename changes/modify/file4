@@ -1,4 +1,24 @@
 #file
+content\/en\/docs\/Experimentation\/hello-world.md
+#old
+## Assessing Realization Status
+#new
+Realizations have an **initial lifetime of one week**. You can extend lifetime of the realization named `world.hello.murphy` for 15 days from today as follows:
+
+```
+mrg update realization expiration world.hello.murphy 15d
+```
+
+## Assessing Realization Status 
+#file
+content\/en\/docs\/Experimentation\/hello-world-gui\/index.md 
+#old
+pop up will be displayed.
+#new
+pop up will become visible.
+
+Realizations have an **initial lifetime of one week**. You can click on Realizations and then on the hamburger menu next to your realization's name to extend its lifetime.
+#file
 content\/en\/docs\/Experimentation\/ingresses\/index.md
 #old
 Nodes can host services that are accessible from the internet.

@@ -24,7 +24,7 @@ This guide assumes you are using the reference portal at `sphere-testbed.net`. I
 # Account Setup
 
 
-Instructors should open their account <a href="https://launch.sphere-testbed.net">here</a> and create an organization for their class (Organizations are on the left menu as the user is logged on). Then please post a support ticket for SPHERE ops to approve the organization. **You need to do this only once per class. Next semester you can reuse the same organization. If another instructor teaches the same class they can also reuse the same organization.**
+Instructors should open their account <a href="https://launch.sphere-testbed.net">here</a> and create an organization for their class (Organizations are on the left menu as the user is logged on). **Please select a short name, like cs322 or usc201 and specify category Class**. Then please [post a support ticket](mailto:contact-project+mergetb-support-email@incoming.gitlab.com) for SPHERE ops to approve the organization. **You need to do this only once per class. Next semester you can reuse the same organization. If another instructor teaches the same class they can also reuse the same organization.**
 
 Students will have their account automatically set up by their instructor.
 
@@ -72,13 +72,14 @@ To access class materials log into our Class UI. You should be able to view clas
 
 Each assignment will have a name of the lab you will work on, let's call it **labname**. To start an experiment and set up the lab follow the steps below.
 1. Log into the testbed using your username and password, at <a href="https://launch.sphere-testbed.net">our main site</a>
-2. Click on XDCs (left menu) and create a new XDC. **You should only do this once per class.** Wait a little while and refresh the page. A Jupyter link will become visible.
+2. Click on XDCs (left menu) and create a new XDC. Select "personal" type of XDC. **You should only do this once per class.** Wait a little while and refresh the page. A Jupyter link will become visible.
 3. Click on Jupyter link (center window)
 4. Click on Terminal if needed - Terminal app may already be active
 
 5. Only the first time you access the testbed via Terminal app, type the text below.
     ```bash
     $ su - yourusername
+    $ cd
     $ echo "PATH=$PATH:/share" > .profile
     $ echo yourpassword > pass.txt
     $ exit
@@ -91,11 +92,11 @@ Each assignment will have a name of the lab you will work on, let's call it **la
 
 Otherwise proceed to the next step.
 
-7. If you are just starting an assignment, to start an experiment, type
+7. If you are just starting an assignment, to start an experiment, type (use the labname specified in your assignment):
     ```bash
     $ startexp labname
     ```
-    Wait until the screen indicates that this has completed. Then type:
+    Wait until the screen indicates that this has completed. Then type (use the labname specified in your assignment):
     ```bash
     $ runlab labname
     ```

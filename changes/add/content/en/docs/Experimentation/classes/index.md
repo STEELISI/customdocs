@@ -72,7 +72,7 @@ To access class materials log into our Class UI. You should be able to view clas
 
 Each assignment will have a name of the lab you will work on, let's call it **labname**. To start an experiment and set up the lab follow the steps below.
 1. Log into the testbed using your username and password, at <a href="https://launch.sphere-testbed.net">our main site</a>
-2. Click on XDCs (left menu) and create a new XDC. Select "personal" type of XDC. **You should only do this once per class.** Wait a little while and refresh the page. A Jupyter link will become visible.
+2. Click on XDCs (left menu) and create a new XDC. Select "personal" type of XDC and name it "xdc". **You should only do this once per class.** Wait a little while and refresh the page. A Jupyter link will become visible.
 3. Click on Jupyter link (center window)
 4. Click on Terminal if needed - Terminal app may already be active
 

@@ -50,6 +50,8 @@ Click on Teaching (left menu) then on your class. Use option "Add Materials" or 
 
 If you have previously used shared materials, they now reside <a href="https://jelenamirkovic.github.io/sphere-education.github.io/">here</a>. If you have previously used private materials, please contact SPHERE ops to receive a ZIP file with your materials from the old platform. You can upload these to a sharing site, such as Google Sites, Drop box, Share point, etc. and use our add-by-URL option to add them to your class.
 
+Please refer to [guidelines on setting up private materials' resources](private.md).
+
 ## Creating Assignments
 
 Click on Teaching (left menu) then on your class. Use option "Add Assignment". You will be able to select your assignment from the existing materials, so please make sure to add materials first and then use them to create assignments. You can now set the release date as well as the due date for each assignment. You can hide assignments under development by making them visible only to Instructors/TAs. At the release date, they will become visible to everyone in your class.

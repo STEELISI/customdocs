@@ -50,7 +50,7 @@ Click on Teaching (left menu) then on your class. Use option "Add Materials" or 
 
 If you have previously used shared materials, they now reside <a href="https://jelenamirkovic.github.io/sphere-education.github.io/">here</a>. If you have previously used private materials, please contact SPHERE ops to receive a ZIP file with your materials from the old platform. You can upload these to a sharing site, such as Google Sites, Drop box, Share point, etc. and use our add-by-URL option to add them to your class.
 
-Please refer to [guidelines](/docs/experimentation/classes/private/) on how to set up resources when using private materials.
+Please refer to [guidelines](private/) on how to set up resources when using private materials.
 
 ## Creating Assignments
 

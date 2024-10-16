@@ -11,9 +11,7 @@ These instructions should be followed only once per class (not per class offerin
 
 1. Log into [SPHERE portal](https://launch.sphere-testbed.net) and click on Projects. Create a new project in your organization (usually your organization will be your class name). You only have to do this once.
 
-![](newproject.png)
-Make the project protected:
-![](protected.png)
+Make the project protected.
 
 2. Click on XDC on the left menu, then create an XDC in your new project. Please wait around 5 minutes for XDC to be fully initialized.
 

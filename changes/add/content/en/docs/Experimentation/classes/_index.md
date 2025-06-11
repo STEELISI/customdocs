@@ -76,25 +76,21 @@ Each assignment will have a name of the lab you will work on, let's call it **la
 1. Log into the testbed using your username and password, at <a href="https://launch.sphere-testbed.net">our main site</a>
 2. Click on XDCs (left menu) and create a new XDC. Select "personal" type of XDC and name it "xdc". **You should only do this once per class.** Wait a little while and refresh the page. A Jupyter link will become visible.
 3. Click on Jupyter link (center window)
-4. Click on Terminal if needed - Terminal app may already be active
+4. Sign in again with your SPHERE username and password
+5. Click "Start Server" (blue button)
+5a. Next time you log in and access Jupyter link, it will give you an option to re-connect to the same server (blue button). Select that option.
+6. Click on Terminal app
 
-5. Only the first time you access the testbed via Terminal app, type the text below.
+7. Only the first time you access your XDC via Terminal app, type the text below.
     ```bash
-    $ su - yourusername
-    $ cd
     $ echo "PATH=$PATH:/share" > .profile
     $ echo yourpassword > pass.txt
     $ exit
-    $ su - yourusername
     ```
-6. Every other time you access the testbed via Terminal app look at the command line prompt. If the prompt looks like `#`, type
-    ```bash
-    $ su - yourusername
-    ```
+7a. Every other time you access the same XDC via Terminal app, there is nothing special you need to do. Just open the Terminal app and proceed to the next step.
 
-Otherwise proceed to the next step.
 
-7. If you are just starting an assignment, to start an experiment, type (use the labname specified in your assignment):
+8. If you are just starting an assignment, to start an experiment, type (use the labname specified in your assignment):
     ```bash
     $ startexp labname
     ```
@@ -109,11 +105,11 @@ Otherwise proceed to the next step.
     2. If that fails again, re-run the sequence of *startexp* and *runlab* one more time. 
     3. If it fails again, please contact your instructor or TA to ask for help.
 
-8. To access your nodes from the terminal window type:
+9. To access your nodes from the terminal window type:
     ```bash
     $ ssh nodename
     ```
-    For example, if your topology has nodes `a` and `b` type `ssh a` or `ssh b`. If you need to access multiple nodes at the same time, open another *browser window* and repeat steps 1, 2, 3, 4, 6 and then step 8.
+    For example, if your topology has nodes `a` and `b` type `ssh a` or `ssh b`. If you need to access multiple nodes at the same time, open another tab in Terminal app and repeat step 9.
 
 ## Finishing Assignments
 

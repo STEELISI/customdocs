@@ -34,11 +34,11 @@ Instructors will use <a href="https://edu.sphere-testbed.net">our Class UI</a> t
 
 ## Student/TA Account Creation
 
-Click on Teaching (left menu) then on your class. Use option "Add Users" and select student or TA. The system will create the requested accounts and you will be able to see the usernames and passwords under "Manage Users" menu item. One sample class's view is shown below.
+Click on Teaching (left menu) then on your class. Use option "Add Users" and select student or TA. The system will create the requested accounts and you will be able to see the usernames and temporary passwords under "Manage Users" menu item. One sample class's view is shown below.
 
 ![](teacherview.png)
 
-**Currently, instructors must hand out username and password combination to each student. The easiest approach would be to print out the Manage students view, cut the paper strips and hand one to each student. We're working on emailing the students' their passwords, and hope to release this feature by September 15, 2024.**
+When student accounts are created each student will need to verify the email address used to register the account and change their password. When you create the account via the Class UI, the student will receive an email which instructs them on verifying the email address. Once that is done the students should go to https://launch.sphere-testbed.net/recovery to trigger an account recovery flow to change their account password. Once a password is changed, the temporary password you see in the Class UI is not relevant. 
 
 ## Student/TA Account Management
 
